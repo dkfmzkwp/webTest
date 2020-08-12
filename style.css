@@ -1,0 +1,27 @@
+legend{
+    color: darkviolet;
+    font-size: x-large;
+}
+fieldset{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.td_name{
+    width: 150px;
+}
+#button{
+    margin-top: 15px;
+}
+#table{
+    width: 900px;
+}
+#textbox{
+    width: 350px;
+}
+#checkbox{
+    margin-left: 30px;
+}
+#text2{
+    width: 80px;
+}
