@@ -1,4 +1,58 @@
-legend{
+#t1{
+    width: 922px;
+}
+#t2{
+    width: 922px;
+}
+#t3{
+    width: 922px;
+}
+#t4{
+    width: 922px;
+}
+#t5{
+    width: 922px;
+}
+#t6{
+    width: 922px;
+}
+#button{
+    color: white;
+    background-color: orangered;
+    width: 200px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* legend{
     color: darkviolet;
     font-size: x-large;
 }
@@ -24,4 +78,4 @@ fieldset{
 }
 #text2{
     width: 80px;
-}
+} */
