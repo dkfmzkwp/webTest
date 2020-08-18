@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>multi-for-test2</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel="stylesheet" href="./style.css">
+        <script src="./outerJavaScript.js"></script>
+        <script>
+            document.write("<table border='1' style='text-align: center'>");
+                
+                for(var i=0;i<6;i++){
+                    document.write("<tr>")
+                        for(var j=0;j<10;j++){
+                            var result = "(" + i + "," + j + ")";
+                            document.write("<td>" + result + "</td>");
+                        }
+                        document.write("</tr>");
+                }
+                document.write("</table>");
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>document.getElementsByTagName</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel="stylesheet" href="./style.css">
+        <script src="./outerJavaScript.js"></script>
+        <script>
+            window.onload = function(){
+                var headers = document.getElementsByTagName("h1");
+
+                for(var i = 0; i<headers.length;i++){
+                   var header = headers[i];
+
+                   header.style.color = "yellow";
+                   header.style.backgroundColor = "blue";
+                }
+            };
+        </script>
+    </head>
+    <body>
+        <h1>header1</h1>
+        <h1>header2</h1>
+        <h1>header3</h1>
+        <h2>header4</h1>
+    </body>
+</html>

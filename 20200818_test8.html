@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>구구단</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./outerJavaScript.js"></script> -->
+    <script>
+        var ques = prompt("단? (1~9)", 0);
+        if (parseInt(ques) === 20) {
+            alert("구구단 종료");
+        } else {
+            document.write("<h1>" + ques + "단</h1><ul>");
+            for (var j = 1; j < 10; j++) {
+                var mul = parseInt(ques) * j;
+                document.write("<li>" + parseInt(ques) + "X" + j + "=" + mul + "</li>");
+            }
+            document.write("</ul>");
+        };
+    </script>
+</head>
+    <body>
+        <button onclick="location.reload()">새로고침</button>
+    </body>
+</html>

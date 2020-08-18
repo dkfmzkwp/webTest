@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>자바 스크립트 기본 문법</title>
+        <link rel="stylesheet" href="./style.css">
+        <!-- <script src="../chapter_2/outerJavaScript2.js"></script> -->
+        <script>
+            var date = new Date();
+            var hours = date.getHours();
+
+            switch(hours){
+                case 21:
+                case 22:
+                case 23:
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4: alert("취침 시간");
+                break;
+                case 5: 
+                case 6: alert("준비");
+                break;
+                case 7: 
+                case 8: alert("출근");
+                break;
+                case 9:
+                case 10:
+                case 11: alert("빈둥빈둥");
+                break;
+                case 12:
+                case 13: alert("식사");
+                break;
+                case 14:
+                case 15:
+                case 16: alert("업무");
+                break;
+                case 17:
+                case 18: alert("퇴근");
+                break;
+                case 19:
+                case 20: alert("저녁");
+                break;
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
