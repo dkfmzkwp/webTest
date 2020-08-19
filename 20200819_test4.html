@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>windowTest</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./style2.css">
+        <script src="./outerJavaScript2.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <script>
+            function open1(){
+                window.open('20200819_test4.html');
+            }
+            function open2(){
+                window.open('20200819_test4.html','','width=300,height=500,scrollbars=no,toolbar=no,menubar=no,status=no,location=no');
+            }
+            function open3(url){
+                window.open(url,'mywin','width=500, height=300, scrollbars=no, toolbar=no, menubar=no, status=no, location=no');
+            }
+        </script>
+    </head>
+    <body>
+            <h1>window</h1>
+            <h3>open method</h3>
+            <div>
+                <a href="#" onclick="open1(); return false;">새 창 열기</a><br>
+                <a href="#" onclick="open2(); return false;">팝업 창 열기(1)</a><br>
+                <a href="#" onclick="open3('http://www.naver.com'); return false;">네이버</a><br>
+                <a href="#" onclick="open3('http://www.daum.net'); return false">다음</a><br>
+            </div>
+    </body>
+</html>
