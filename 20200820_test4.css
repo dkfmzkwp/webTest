@@ -1,0 +1,47 @@
+signup.table{
+    border-collapse: collapse;
+}
+
+signup.th{
+    background-color: lightskyblue;
+}
+
+signup.tr{
+    height: 70px;
+    border-bottom: 1px solid lightgray;
+}
+
+signup.td{
+    padding: 10px;
+}
+
+#nextButton{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+signup.div#header{
+    width: 60em;
+    height: 200px;
+    margin: 30px auto;
+}
+
+signup.div#table{
+    width: 60em;
+    margin: 0 auto;
+}
+
+signup.div > table{
+    width: 60em;
+}
+
+
+
+div#group_checkbox{
+    margin-top: 10px;
+}
+
+div#group_button{
+    margin-top: 10px;
+}

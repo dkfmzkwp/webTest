@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>rollover</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style3.css">
+    <script src="./20200820_test3.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <style>
+        ul {
+            padding: 0;
+            margin: 0;
+            width: 670px;
+            list-style: none;
+        }
+
+        li {
+            float: left;
+        }
+
+        ul:after {
+            content: '';
+            display: block;
+            float: none;
+            clear: both;
+        }
+
+        img {
+            border: none;
+        }
+    </style>
+    <script>
+        function changeImage(image, id) {
+            document.getElementById(id).src = image;
+        }
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="#" onmouseover="changeImage('./images/pic6.png', 'jquery');"
+                onmouseout="changeImage('./images/pic5.png', 'jquery');">
+                <img id="jquery" src="./images/pic5.png" /></a>
+        </li>
+        <li>
+            <a href="#" onmouseover="changeImage('./images/pic7.png', 'js');"
+                onmouseout="changeImage('./images/pic5.png', 'js');">
+                <img id="js" src="./images/pic5.png" /></a>
+        </li>
+        <li>
+            <a href="#" onmouseover="changeImage('./images/pic8.png', 'css');"
+                onmouseout="changeImage('./images/pic5.png', 'css');">
+                <img id="css" src="./images/pic5.png" /></a>
+        </li>
+        <li>
+            <a href="#" onmouseover="changeImage('./images/pic9.png', 'html');"
+                onmouseout="changeImage('./images/pic5.png', 'html');">
+                <img id="html" src="./images/pic5.png" /></a>
+        </li>
+
+    </ul>
+</body>
+
+</html>
