@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Element Selection</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script>
+        window.onload = function(){
+            var picture = document.getElementById('picture');
+        }
+
+        function imageChange(){
+            picture.src = "./images/mov39.jpg";
+        }
+
+		// $(function() {
+		// 	$("button").on("click", function() {
+		// 		// <img>요소 중에서 alt 속성값이 "flower"인 요소를 모두 선택함.
+		// 		$("img[alt='flower']").attr("src", "/examples/images/img_monalisa.png");
+		// 	});
+		// });
+	</script>
+</head>
+
+<body>
+
+	<h1>속성 선택자</h1>
+
+	<img src="./images/mov25.jpg" id="picture"><br>
+	<button id="change" onclick="imageChange()">속성을 바꾸죠!!</button>
+	
+</body>
+
+</html>
