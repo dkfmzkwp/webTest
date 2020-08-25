@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.container{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.container_slides{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.container_slides a{
+  text-align: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.container_nav a.prev{
+  background: url('../img/sprites.png') no-repeat 0 -20px;
+	width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  transform: translateY(-50%); /*중앙에 위치시킴*/
+  text-indent: -9999em; /*택스트 위치 설정 - 들여쓰기 효과*/
+  margin-left: -480px; /*좌우 위치 조정*/
+}
+
+.container_nav a.next{
+  background: url('../img/sprites.png') no-repeat -80px -20px;
+	width: 72px;
+  height: 71px;
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  transform: translateY(-50%); /*중앙에 위치시킴*/
+  text-indent: -9999em; /*택스트 위치 설정 - 들여쓰기 효과*/
+  margin-left: 408px; /*좌우 위치 조정*/
+}
+
+.container_indicator{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  text-align: center;
+}
+
+.container_indicator a{
+  background: url('../img/sprites.png') no-repeat -113px -4px;
+	width: 9px;
+  height: 8px;
+  margin: 0 5px;
+  display: inline-block ;
+  text-indent: -9999em;
+}
+
+/*선택된 이미지*/
+.container_indicator a.active{
+  background: url('../img/sprites.png') no-repeat -133px -4px;
+	width: 9px;
+  height: 8px;
+  text-indent: -9999em;
+}
